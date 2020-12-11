@@ -42,14 +42,10 @@ class AdaptadorCustom (var contexto: Context, items:ArrayList<Oferta>):
             var universidad: TextView? = null
             var carrera: TextView? = null
 
-
-
             init {
                 id = vista.findViewById(R.id.txtId)
                 carrera = vista.findViewById(R.id.txtCarrera)
                 universidad = vista.findViewById(R.id.txtEscuela)
             }
         }
-
-
     }
